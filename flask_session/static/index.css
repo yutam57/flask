@@ -1,0 +1,137 @@
+html, body{
+    margin: 0;         /* 余白の削除 */
+    padding: 0;        /* 余白の削除 */
+    width:100%;
+    height:100%;
+}
+
+
+.btn-flat-vertical-border {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.8em;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.1em 0.5em;
+  text-decoration: none;
+  border-left: solid 4px #3498DB;
+  border-right: solid 4px #3498DB;
+  color: #3498DB;
+  background: #e1f3ff;
+  transition: .4s;
+  font-family: arial;
+}
+
+.btn-flat-vertical-border:hover {
+  background: #3498DB;
+  color: #FFF;
+}
+
+.logout {position:absolute; top:10px; right:130px;}
+
+
+div {
+    display: block;
+}
+
+#header {
+    text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+}
+
+table.type06 th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    background: #3498DB;
+    color: #ffffff;
+}
+table.type06 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background: #e1f3ff;
+}
+
+#form4{
+    position:relative;
+    max-width:300px;  
+    margin-bottom:20px;
+}
+#sbox4{
+    height:50px;
+    padding:0 10px; 
+    position:absolute; 
+    left:0;
+    top:0; 
+    border-radius:25px;
+    outline:0;
+    background:#eee;
+}
+#sbtn4{
+    height:50px;
+    width:50px; 
+    position:absolute; 
+    left:250px; 
+    top:0;
+    background:#7fbfff;
+    color:#fff;
+    border:none;
+    border-radius:0 25px 25px 0;
+}
+#sbtn4 .fa-search{
+    font-size:20px; 
+    position:absolute;
+    top:30%;
+    left:30%; 
+}
+#sbtn4:hover{
+    color:#888;
+}
+
+/* ヘッダーの固定 */
+div#header-fixed
+{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 140px;              /* 縦幅140px */
+}
+ 
+ 
+div#header-bk { 
+    background-color:#fff;     /* 背景色(灰) */
+    padding:10px 0 20px;       /* 上10px、下20pxをあける */
+    height:100px;              /* 縦の高さ110px */
+    width:100%;                /* 横の幅を100% */
+}
+ 
+ 
+div#header { 
+    border: 5px solid #fff;    /* 表示領域を白枠で囲う */
+    height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    width: 960px;              /* 横の幅970px */
+    margin: auto;              /* 中央揃え */
+}
+
+/* ボディの定義 */
+div#body-bk{
+    padding:150px 0;    /* 上に160pxを余白を取る */
+}
+ 
+div#body{
+    color: #454545;
+    font-family: arial;
+    width:960px;
+    margin:auto;
+}
